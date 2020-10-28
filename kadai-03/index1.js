@@ -4,11 +4,11 @@ console.log(day)
 
 if (day % 3 === 0) {
     if(day % 4 === 0) {
-        console.log('あなたは')
+        console.log('あなたは不思議な性格です')
     }
-    console.log('あなたは○○な性格です')
+    console.log('あなたは厳しい性格です')
 } else if (day % 3 === 1) {
-    console.log('あなたはな性格です')
-} else {
-    console.log('あなたは○○な性格です')
+    console.log('あなたは優しい性格です')
+} else if(day % 3 === 2) {
+    console.log('あなたは甘い性格です')
 }
